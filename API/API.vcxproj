@@ -129,13 +129,19 @@
   <ItemGroup>
     <ClInclude Include="API.h" />
     <ClInclude Include="CCore.h" />
+    <ClInclude Include="CObject.h" />
+    <ClInclude Include="CTime.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Global.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp" />
     <ClCompile Include="CCore.cpp" />
+    <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CTime.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="API.rc" />

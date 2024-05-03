@@ -3,10 +3,12 @@
 
 #include "framework.h"
 #include "API.h"
+#include"CCore.h"
 
 #define MAX_LOADSTRING 100
 
 // 전역 변수:
+HWND hWnd;
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
@@ -39,6 +41,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, //실행된 프로그램의 시�
         return FALSE;
     }
 
+    if (FAILED(CCore::getInstance()->Init(hWnd, POINT{ 1280,768 }))) {
+        return FALSE;
+    }
+
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_API));
 
     MSG msg;
@@ -57,10 +63,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, //실행된 프로그램의 시�
                 TranslateMessage(&msg);
                 DispatchMessage(&msg);
             }
-            else {
-                //메세지가 없는 동안 호출
-
-            }
+           
+        }
+        else {
+            //메세지가 없는 동안 호출
+            CCore::getInstance()->Progress();
         }
         
     }
@@ -110,7 +117,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-   HWND hWnd = CreateWindowW(szWindowClass, L"My Game", WS_OVERLAPPEDWINDOW,
+   hWnd = CreateWindowW(szWindowClass, L"My Game", WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
 
    if (!hWnd)
@@ -135,6 +142,8 @@ struct objInfo {
 
 vector<objInfo> vecInfo;
 
+
+
 //
 //  함수: WndProc(HWND, UINT, WPARAM, LPARAM)
 //
@@ -145,7 +154,7 @@ vector<objInfo> vecInfo;
 //  WM_DESTROY  - 종료 메시지를 게시하고 반환합니다.
 //
 //
-LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+LRESULT CALLBACK WndProc(HWND p_hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     switch (message)
     {
@@ -159,26 +168,26 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                 DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
                 break;
             case IDM_EXIT:
-                DestroyWindow(hWnd);
+                DestroyWindow(p_hWnd);
                 break;
             default:
-                return DefWindowProc(hWnd, message, wParam, lParam);
+                return DefWindowProc(p_hWnd, message, wParam, lParam);
             }
         }
         break;
     case WM_PAINT:
         {
             PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hWnd, &ps);
+            HDC hdc = BeginPaint(p_hWnd, &ps);
             // TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다...
-            EndPaint(hWnd, &ps);
+            EndPaint(p_hWnd, &ps);
         }
         break;
     case WM_DESTROY:
         PostQuitMessage(0);
         break;
     default:
-        return DefWindowProc(hWnd, message, wParam, lParam);
+        return DefWindowProc(p_hWnd, message, wParam, lParam);
     }
     return 0;
 }

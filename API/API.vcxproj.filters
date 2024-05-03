@@ -14,6 +14,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fa497918-c695-4ee5-8506-367cd301bdc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{070a6055-ce83-4113-bc67-8156ac9a73c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="API.h">
@@ -31,6 +37,18 @@
     <ClInclude Include="CCore.h">
       <Filter>Engine\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CTime.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp">
@@ -38,6 +56,12 @@
     </ClCompile>
     <ClCompile Include="CCore.cpp">
       <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CTime.cpp">
+      <Filter>Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

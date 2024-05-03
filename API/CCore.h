@@ -1,27 +1,27 @@
 #pragma once
-class CCore
-{
+#include"Singleton.h"
+#include"Windows.h"
+#include"CObject.h"
+#include"CTime.h"
+class CCore :public Singleton<CCore>{
+
 public:
-	//싱글턴
-	static CCore* GetInstance() {
-		if (nullptr == g_Inst) {
-			g_Inst = new CCore;
-		}
-
-		return g_Inst;
-	}
-
-	static void Release() {
-		if (nullptr != g_Inst) {
-			delete g_Inst;
-			g_Inst = nullptr;
-		}
-	}
-
-
+	int Init(HWND phWnd, POINT pPt);
+	void Release();
+	void Progress();
+	HWND GetHwnd();
+	HDC GetHDC();
 private:
-	static CCore* g_Inst;
-	CCore();
-	~CCore();
+	HWND m_hwnd; //윈도우 핸들
+	POINT m_pt; //해상도
+	HDC m_hdc;
+
+	HBITMAP m_hBit;
+	HDC m_mDC;
+
+	CObject* m_obj;
+
+	void Update();
+	void Render();
 };
 
