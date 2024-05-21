@@ -1,0 +1,94 @@
+﻿  API.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'API.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'API.cpp'을(를) 컴파일하는 중)
+  
+  CCore.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+  CObject.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CObject.cpp'을(를) 컴파일하는 중)
+  
+  CResource.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CResource.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CResource.cpp'을(를) 컴파일하는 중)
+  
+  CScene.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CScene.cpp'을(를) 컴파일하는 중)
+  
+  CSceneManager.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CSceneManager.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CSceneManager.cpp'을(를) 컴파일하는 중)
+  
+  CTexture.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CTexture.cpp'을(를) 컴파일하는 중)
+  
+  CTime.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CTime.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CTime.cpp'을(를) 컴파일하는 중)
+  
+  KeyManager.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'KeyManager.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'KeyManager.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\KeyManager.cpp(96,26): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  Misille.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Misille.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Misille.cpp'을(를) 컴파일하는 중)
+  
+  Player.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Player.cpp(10,25): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Github\WinApi\API\Player.cpp(13,25): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Github\WinApi\API\Player.cpp(16,25): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\Github\WinApi\API\Player.cpp(19,25): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StartScene.cpp
+E:\Github\WinApi\API\Global.h(21,28): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'StartScene.cpp'을(를) 컴파일하는 중)
+  
+E:\Github\WinApi\API\Global.h(21,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'StartScene.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 204 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  API.vcxproj -> E:\Github\WinApi\API\Output\bin\API.exe

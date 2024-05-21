@@ -70,6 +70,18 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Output\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Output\bin_debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Output\bin\</OutDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -130,13 +142,16 @@
     <ClInclude Include="API.h" />
     <ClInclude Include="CCore.h" />
     <ClInclude Include="CObject.h" />
+    <ClInclude Include="CResource.h" />
     <ClInclude Include="CScene.h" />
     <ClInclude Include="CSceneManager.h" />
+    <ClInclude Include="CTexture.h" />
     <ClInclude Include="CTime.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="KeyManager.h" />
     <ClInclude Include="Misille.h" />
+    <ClInclude Include="PathManager.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Singleton.h" />
@@ -147,11 +162,14 @@
     <ClCompile Include="API.cpp" />
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CResource.cpp" />
     <ClCompile Include="CScene.cpp" />
     <ClCompile Include="CSceneManager.cpp" />
+    <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="CTime.cpp" />
     <ClCompile Include="KeyManager.cpp" />
     <ClCompile Include="Misille.cpp" />
+    <ClCompile Include="PathManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="StartScene.cpp" />
   </ItemGroup>

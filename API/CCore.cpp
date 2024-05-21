@@ -2,6 +2,7 @@
 #include"CObject.h"
 #include"KeyManager.h"
 #include"CSceneManager.h"
+#include"PathManager.h"
 
 int CCore::Init(HWND phWnd, POINT pPt)
 {
@@ -28,6 +29,7 @@ int CCore::Init(HWND phWnd, POINT pPt)
 	//매니저 초기화
 	CTime::getInstance()->Init();
 	KeyManager::getInstance()->Init();
+	PathManager::getInstance()->Init();
 	CSceneManager::getInstance()->Init();
 
 

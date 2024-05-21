@@ -32,6 +32,12 @@
     <Filter Include="Object\Misille">
       <UniqueIdentifier>{f8c24729-202a-4eb9-a9ae-2fa617ce3bf4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Default\Resource">
+      <UniqueIdentifier>{e2715a67-e919-457c-ab66-dc1dd3af5fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\Resource\Texture">
+      <UniqueIdentifier>{d748b743-1dbe-41ca-bcf0-4da720ffe689}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="API.h">
@@ -79,6 +85,15 @@
     <ClInclude Include="Misille.h">
       <Filter>Object\Misille</Filter>
     </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Default\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Default\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp">
@@ -110,6 +125,15 @@
     </ClCompile>
     <ClCompile Include="Misille.cpp">
       <Filter>Object\Misille</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Default\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Default\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
