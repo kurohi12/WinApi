@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\Github\\WinApi\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Misille.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Misille.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -102,11 +102,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Player.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
@@ -203,15 +203,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Misille.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Misille.cpp",
               "RelativeDocumentMoniker": "Misille.cpp",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Misille.cpp*",
-              "RelativeToolTip": "Misille.cpp*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Misille.cpp",
+              "RelativeToolTip": "Misille.cpp",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAawB8AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-12T23:10:45.704Z"
+              "WhenOpened": "2024-05-12T23:10:45.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -227,27 +228,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Misille.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Misille.h",
               "RelativeDocumentMoniker": "Misille.h",
               "ToolTip": "E:\\Github\\WinApi\\API\\Misille.h",
               "RelativeToolTip": "Misille.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-12T23:10:41.382Z"
+              "WhenOpened": "2024-05-12T23:10:41.382Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Global.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Global.h",
               "RelativeDocumentMoniker": "Global.h",
               "ToolTip": "E:\\Github\\WinApi\\API\\Global.h",
               "RelativeToolTip": "Global.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAALAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T23:07:19.43Z"
+              "WhenOpened": "2024-05-02T23:07:19.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

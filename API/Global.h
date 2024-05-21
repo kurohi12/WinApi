@@ -3,12 +3,15 @@
 #include<vector>
 #include<stdio.h>
 #include<math.h>
+#include<assert.h>
 
 using namespace std;
 
 struct Vector2 {
 	float x;
 	float y;
+
+
 
 public:
 	Vector2():x(0.f),y(0.f){}
@@ -22,6 +25,20 @@ public:
 	Vector2& operator = (POINT pt) {
 		x = (float)pt.x;
 		y = (float)pt.y;
+	}
+
+	float Distance() {
+		return sqrt(x * x + y * y);
+	}
+
+	Vector2& Normalize() {
+		float len = Distance();
+
+		assert(len != 0.f);
+		x /= len;
+		y /= len;
+
+		return *this;
 	}
 };
 
