@@ -1,5 +1,7 @@
 #include "CTime.h"
 #include"CCore.h"
+#include"CSceneManager.h"
+#include"CScene.h"
 
 void CTime::Init()
 {

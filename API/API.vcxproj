@@ -130,18 +130,30 @@
     <ClInclude Include="API.h" />
     <ClInclude Include="CCore.h" />
     <ClInclude Include="CObject.h" />
+    <ClInclude Include="CScene.h" />
+    <ClInclude Include="CSceneManager.h" />
     <ClInclude Include="CTime.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Global.h" />
+    <ClInclude Include="KeyManager.h" />
+    <ClInclude Include="Misille.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Singleton.h" />
+    <ClInclude Include="StartScene.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp" />
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="CScene.cpp" />
+    <ClCompile Include="CSceneManager.cpp" />
     <ClCompile Include="CTime.cpp" />
+    <ClCompile Include="KeyManager.cpp" />
+    <ClCompile Include="Misille.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="StartScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="API.rc" />

@@ -1,5 +1,7 @@
 #include "CCore.h"
 #include"CObject.h"
+#include"KeyManager.h"
+#include"CSceneManager.h"
 
 int CCore::Init(HWND phWnd, POINT pPt)
 {
@@ -25,10 +27,8 @@ int CCore::Init(HWND phWnd, POINT pPt)
 
 	//매니저 초기화
 	CTime::getInstance()->Init();
-
-	m_obj = new CObject();
-	m_obj->Position() = { 100,100 };
-	m_obj->Scale() = { 50,50 };
+	KeyManager::getInstance()->Init();
+	CSceneManager::getInstance()->Init();
 
 
 	return S_OK;
@@ -57,9 +57,18 @@ HDC CCore::GetHDC()
 	return m_hdc;
 }
 
+POINT CCore::GetPT()
+{
+	return m_pt;
+}
+
 void CCore::Update()
 {
 	CTime::getInstance()->Update();
+	KeyManager::getInstance()->Update();
+	CSceneManager::getInstance()->Update();
+
+	
 }
 
 void CCore::Render()
@@ -67,10 +76,9 @@ void CCore::Render()
 	//Clear
 	PatBlt(m_mDC, 0, 0, m_pt.x, m_pt.y, WHITENESS);
 
-	Rectangle(m_mDC, int(m_obj->Position().x - m_obj->Scale().x / 2),
-				     int(m_obj->Position().y - m_obj->Scale().y / 2),
-					 int(m_obj->Position().x + m_obj->Scale().x / 2),
-					 int(m_obj->Position().y + m_obj->Scale().y / 2));
+	CSceneManager::getInstance()->Render(m_mDC);
+
+
 
 	BitBlt(m_hdc, 0, 0, m_pt.x, m_pt.y,m_mDC,0,0,SRCCOPY);
 }	

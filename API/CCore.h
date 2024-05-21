@@ -11,6 +11,7 @@ public:
 	void Progress();
 	HWND GetHwnd();
 	HDC GetHDC();
+	POINT GetPT();
 private:
 	HWND m_hwnd; //윈도우 핸들
 	POINT m_pt; //해상도

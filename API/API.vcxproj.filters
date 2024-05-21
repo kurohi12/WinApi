@@ -20,6 +20,18 @@
     <Filter Include="Object">
       <UniqueIdentifier>{070a6055-ce83-4113-bc67-8156ac9a73c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7fd884be-b653-431f-b362-95a08df399b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\StartScene">
+      <UniqueIdentifier>{f0c97239-6772-4606-81cb-c395bbee8134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{238fe0cb-7bf3-47c1-b20d-7599370e5df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Misille">
+      <UniqueIdentifier>{f8c24729-202a-4eb9-a9ae-2fa617ce3bf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="API.h">
@@ -49,6 +61,24 @@
     <ClInclude Include="CTime.h">
       <Filter>Manager</Filter>
     </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Scene\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Misille.h">
+      <Filter>Object\Misille</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp">
@@ -62,6 +92,24 @@
     </ClCompile>
     <ClCompile Include="CTime.cpp">
       <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Scene\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Misille.cpp">
+      <Filter>Object\Misille</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
