@@ -3,6 +3,7 @@
 #include"KeyManager.h"
 #include"CSceneManager.h"
 #include"PathManager.h"
+#include"ResourceManager.h"
 
 int CCore::Init(HWND phWnd, POINT pPt)
 {
@@ -26,6 +27,8 @@ int CCore::Init(HWND phWnd, POINT pPt)
 	HBITMAP hOldBit = (HBITMAP)SelectObject(m_mDC, m_hBit);
 	DeleteObject(hOldBit);
 
+	CreateBrushPen();
+
 	//매니저 초기화
 	CTime::getInstance()->Init();
 	KeyManager::getInstance()->Init();
@@ -38,9 +41,15 @@ int CCore::Init(HWND phWnd, POINT pPt)
 
 void CCore::Release()
 {
+	CSceneManager::getInstance()->Release();
+	ResourceManager::getInstance()->Release();
 	ReleaseDC(m_hwnd, m_hdc);
 	DeleteDC(m_mDC);
 	DeleteObject(m_hBit);
+
+	for (int i = 0; i < (UINT)PEN_TYPE::END; i++) {
+		DeleteObject(m_arrPen[i]);
+	}
 }
 
 void CCore::Progress()
@@ -64,6 +73,16 @@ POINT CCore::GetPT()
 	return m_pt;
 }
 
+HBRUSH CCore::GetBrush(BRUSH_TYPE type)
+{
+	return m_arrBrush[(UINT)type];
+}
+
+HPEN CCore::GetPen(PEN_TYPE type)
+{
+	return m_arrPen[(UINT)type];
+}
+
 void CCore::Update()
 {
 	CTime::getInstance()->Update();
@@ -83,4 +102,13 @@ void CCore::Render()
 
 
 	BitBlt(m_hdc, 0, 0, m_pt.x, m_pt.y,m_mDC,0,0,SRCCOPY);
-}	
+}
+void CCore::CreateBrushPen()
+{
+	m_arrBrush[(UINT)BRUSH_TYPE::HOLLOW] = (HBRUSH)GetStockObject(HOLLOW_BRUSH);
+
+	m_arrPen[(UINT)PEN_TYPE::RED] = CreatePen(PS_SOLID, 1, RGB(255, 0, 0));
+	m_arrPen[(UINT)PEN_TYPE::GREEN] = CreatePen(PS_SOLID, 1, RGB(0, 255, 0));
+	m_arrPen[(UINT)PEN_TYPE::BLUE] = CreatePen(PS_SOLID, 1, RGB(0, 0, 255));
+}
+

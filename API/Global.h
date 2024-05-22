@@ -4,6 +4,9 @@
 #include<stdio.h>
 #include<math.h>
 #include<assert.h>
+#include<map>
+
+#pragma comment(lib,"Msimg32.lib")
 
 using namespace std;
 
@@ -25,6 +28,15 @@ public:
 	Vector2& operator = (POINT pt) {
 		x = (float)pt.x;
 		y = (float)pt.y;
+	}
+	Vector2& operator += (Vector2 vec) {
+		vec.x += x;
+		vec.y += y;
+		return vec;
+	}
+
+	Vector2 operator + (Vector2 vec) {
+		return Vector2(x + vec.x, y + vec.y);
 	}
 
 	float Distance() {
@@ -64,5 +76,17 @@ enum class SCENE_TYPE {
 
 	STAGE01,
 
+	END
+};
+
+enum class BRUSH_TYPE {
+	HOLLOW,
+	END
+};
+
+enum class PEN_TYPE {
+	RED,
+	GREEN,
+	BLUE,
 	END
 };

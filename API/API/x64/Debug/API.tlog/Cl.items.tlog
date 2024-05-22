@@ -1,6 +1,7 @@
 E:\Github\WinApi\API\API.cpp;E:\Github\WinApi\API\API\x64\Debug\API.obj
 E:\Github\WinApi\API\CCore.cpp;E:\Github\WinApi\API\API\x64\Debug\CCore.obj
 E:\Github\WinApi\API\CObject.cpp;E:\Github\WinApi\API\API\x64\Debug\CObject.obj
+E:\Github\WinApi\API\Collider.cpp;E:\Github\WinApi\API\API\x64\Debug\Collider.obj
 E:\Github\WinApi\API\CResource.cpp;E:\Github\WinApi\API\API\x64\Debug\CResource.obj
 E:\Github\WinApi\API\CScene.cpp;E:\Github\WinApi\API\API\x64\Debug\CScene.obj
 E:\Github\WinApi\API\CSceneManager.cpp;E:\Github\WinApi\API\API\x64\Debug\CSceneManager.obj
@@ -10,4 +11,6 @@ E:\Github\WinApi\API\KeyManager.cpp;E:\Github\WinApi\API\API\x64\Debug\KeyManage
 E:\Github\WinApi\API\Misille.cpp;E:\Github\WinApi\API\API\x64\Debug\Misille.obj
 E:\Github\WinApi\API\PathManager.cpp;E:\Github\WinApi\API\API\x64\Debug\PathManager.obj
 E:\Github\WinApi\API\Player.cpp;E:\Github\WinApi\API\API\x64\Debug\Player.obj
+E:\Github\WinApi\API\ResourceManager.cpp;E:\Github\WinApi\API\API\x64\Debug\ResourceManager.obj
+E:\Github\WinApi\API\SelectGDI.cpp;E:\Github\WinApi\API\API\x64\Debug\SelectGDI.obj
 E:\Github\WinApi\API\StartScene.cpp;E:\Github\WinApi\API\API\x64\Debug\StartScene.obj

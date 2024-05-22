@@ -19,6 +19,15 @@ void CScene::Update()
 	}
 }
 
+void CScene::UpdateFix()
+{
+	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i) {
+		for (size_t t = 0; t < m_vecObj[i].size(); ++t) {
+			m_vecObj[i][t]->UpdateFix();
+		}
+	}
+}
+
 void CScene::Render(HDC hdc)
 {
 	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i) {

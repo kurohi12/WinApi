@@ -3,6 +3,18 @@
 #include"Misille.h"
 #include"CSceneManager.h"
 #include"CScene.h"
+#include"ResourceManager.h"
+#include"CTexture.h"
+#include"Collider.h"
+
+void Player::Init(float px, float py, float sx, float sy)
+{
+	CObject::Init(px, py, sx, sy);
+	headTex = ResourceManager::getInstance()->Load(L"WaterGirlNarmal", L"texture\\WaterGirlNarmal.bmp");
+	CreateCollider();
+
+	m_collider->SetSize(Vector2(100.f, 130.f));
+}
 
 void Player::Update()
 {
@@ -25,10 +37,19 @@ void Player::Update()
 
 void Player::Render(HDC hdc)
 {
-	Rectangle(hdc, int(m_position.x - m_scale.x / 2),
-		int(m_position.y - m_scale.y / 2),
-		int(m_position.x + m_scale.x / 2),
-		int(m_position.y + m_scale.y / 2));
+	int hWidth = (int)headTex->Width();
+	int hHeight = (int)headTex->Height();
+
+	Vector2  hPos = Position();
+	ComponentRender(hdc);
+	TransparentBlt(hdc, int(hPos.x - (float)(hWidth / 2)), int(hPos.y - (float)(hHeight / 2)), hWidth, hHeight, headTex->GetUseDC(), 0, 0, hWidth, hHeight, RGB(255, 255, 255));
+}
+
+void Player::Release()
+{
+	CObject::Release();
+	if (headTex != nullptr)
+		delete headTex;
 }
 
 void Player::CreateMissile()

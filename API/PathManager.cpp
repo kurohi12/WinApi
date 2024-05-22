@@ -15,7 +15,7 @@ void PathManager::Init()
 		}
 	}
 
-	wcscat_s(m_ContentPath, 255, L"\\bin\\content\\");
+	wcscat_s(m_ContentPath, 255, L"\\content\\");
 }
 
 const wchar_t* PathManager::GetContenPath()

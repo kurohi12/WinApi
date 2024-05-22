@@ -14,14 +14,11 @@ StartScene::~StartScene()
 
 void StartScene::Start()
 {
-	CTexture* pTex = new CTexture;
-	wstring strFilepath = PathManager::getInstance()->GetContenPath();
-	strFilepath += L"texture\\WaterGirlHead1.png";
-	pTex->Load(strFilepath);
+	CObject* pObj = new Player();
 	
-
-	CObject* pObj = new Player;
 	pObj->Init(640, 384, 50, 50);
+	
+	
 	AddObject(pObj, GROUP_TYPE::DEFAULT);
 }
 

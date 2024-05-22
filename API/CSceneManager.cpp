@@ -21,6 +21,7 @@ void CSceneManager::Release()
 void CSceneManager::Update()
 {
 	m_curScene->Update();
+	m_curScene->UpdateFix();
 }
 
 void CSceneManager::Render(HDC hdc)
