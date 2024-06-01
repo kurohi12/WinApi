@@ -13,6 +13,6 @@ public:
 	const wstring& GetPath();
 
 	CResource();
-	~CResource();
+	virtual ~CResource();
 };
 

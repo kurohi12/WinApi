@@ -4,6 +4,9 @@
 #include"CSceneManager.h"
 #include"PathManager.h"
 #include"ResourceManager.h"
+#include"ColliderManager.h"
+#include"EventManager.h"
+#include"Camera.h"
 
 int CCore::Init(HWND phWnd, POINT pPt)
 {
@@ -34,6 +37,7 @@ int CCore::Init(HWND phWnd, POINT pPt)
 	KeyManager::getInstance()->Init();
 	PathManager::getInstance()->Init();
 	CSceneManager::getInstance()->Init();
+	ColliderManager::getInstance()->Init();
 
 
 	return S_OK;
@@ -56,6 +60,9 @@ void CCore::Progress()
 {
 	Update();
 	Render();
+
+	//이벤트 지연처리
+	EventManager::getInstance()->Update();
 }
 
 HWND CCore::GetHwnd()
@@ -87,8 +94,9 @@ void CCore::Update()
 {
 	CTime::getInstance()->Update();
 	KeyManager::getInstance()->Update();
+	Camera::getInstance()->Update();
 	CSceneManager::getInstance()->Update();
-
+	ColliderManager::getInstance()->Update();
 	
 }
 

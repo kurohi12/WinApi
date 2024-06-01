@@ -1,9 +1,12 @@
 #include "CSceneManager.h"
 #include"StartScene.h"
+#include"EventManager.h"
+#include"MainScene.h"
 
 void CSceneManager::Init()
 {
 	m_arrScene[(UINT)SCENE_TYPE::START] = new StartScene;
+	m_arrScene[(UINT)SCENE_TYPE::MAIN] = new MainScene;
 
 	m_curScene = m_arrScene[(UINT)SCENE_TYPE::START];
 	m_curScene->Start();
@@ -32,4 +35,11 @@ void CSceneManager::Render(HDC hdc)
 CScene* CSceneManager::CurScene()
 {
 	return m_curScene;
+}
+
+void CSceneManager::ChangeScene(SCENE_TYPE scene)
+{
+	m_curScene->Exit();
+	m_curScene = m_arrScene[(UINT)scene];
+	m_curScene->Start();
 }

@@ -1,5 +1,6 @@
 #include "CScene.h"
 #include"CObject.h"
+#include"GFunc.h"
 
 CScene::CScene()
 {
@@ -14,7 +15,8 @@ void CScene::Update()
 {
 	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i) {
 		for (size_t t = 0; t < m_vecObj[i].size(); ++t) {
-			m_vecObj[i][t]->Update();
+			if(!m_vecObj[i][t]->IsAble())
+				m_vecObj[i][t]->Update();
 		}
 	}
 }
@@ -31,8 +33,17 @@ void CScene::UpdateFix()
 void CScene::Render(HDC hdc)
 {
 	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i) {
-		for (size_t t = 0; t < m_vecObj[i].size(); ++t) {
-			m_vecObj[i][t]->Render(hdc);
+
+		vector<CObject*>::iterator iter = m_vecObj[i].begin();
+
+		for (; iter != m_vecObj[i].end(); ) {
+			if (!(*iter)->IsAble()) {
+				(*iter)->Render(hdc);
+				++iter;
+			}
+			else {
+				iter = m_vecObj[i].erase(iter);
+			}
 		}
 	}
 }
@@ -56,7 +67,26 @@ char* CScene::GetName()
 	return sceneName;
 }
 
+const vector<CObject*>& CScene::GetGroupObj(GROUP_TYPE type)
+{
+	return m_vecObj[(UINT)type];
+}
+
 void CScene::AddObject(CObject* obj, GROUP_TYPE type)
 {
 	m_vecObj[(UINT)type].push_back(obj);
 }
+
+void CScene::DeleteObject(GROUP_TYPE type)
+{
+	DeleteVec<CObject*>(m_vecObj[(UINT)type]);
+}
+
+void CScene::DeleteAll()
+{
+	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i) {
+		DeleteObject((GROUP_TYPE)i);
+	}
+}
+
+

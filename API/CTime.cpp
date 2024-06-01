@@ -23,6 +23,13 @@ void CTime::Update()
 
 	m_PreCount = m_CurCount;
 
+#ifdef _DEBUG
+	if (m_deltaTime > (1. / 60)) {
+		m_deltaTime = (1. / 60);
+	}
+#endif
+
+
 	++m_CallCount;
 	m_DTAcc += m_deltaTime;
 	int i = 0;

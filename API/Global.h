@@ -25,18 +25,33 @@ public:
 
 	Vector2(POINT pt):x((float)pt.x),y((float)pt.y){}
 
-	Vector2& operator = (POINT pt) {
+	Vector2 operator = (POINT pt) {
 		x = (float)pt.x;
 		y = (float)pt.y;
+		return Vector2((float)pt.x, (float)pt.y);
 	}
+
 	Vector2& operator += (Vector2 vec) {
 		vec.x += x;
 		vec.y += y;
 		return vec;
 	}
 
+	Vector2 operator * (int i) {
+		return Vector2(x * (float)i, y * (float)i);
+	}
+
+	Vector2 operator / (float i) {
+		assert(!(0.f == i));
+		return Vector2(x / i, y / i);
+	}
+
 	Vector2 operator + (Vector2 vec) {
 		return Vector2(x + vec.x, y + vec.y);
+	}
+
+	Vector2 operator - (Vector2 vec) {
+		return Vector2(x - vec.x, y - vec.y);
 	}
 
 	float Distance() {
@@ -65,13 +80,15 @@ enum class GROUP_TYPE {
 	DEFAULT,
 
 	PLAYER,
-
+	JEWEL,
+	BUTTON,
 
 
 	END
 };
 
 enum class SCENE_TYPE {
+	MAIN,
 	START,
 
 	STAGE01,
@@ -88,5 +105,14 @@ enum class PEN_TYPE {
 	RED,
 	GREEN,
 	BLUE,
+	END
+};
+
+enum class EVENT_TYPE {
+	CREATE_OBJECT,
+	DELETE_OBJECT,
+	CHANGE_SCENE,
+
+
 	END
 };

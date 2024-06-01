@@ -1,5 +1,10 @@
 #include "Misille.h"
 
+void Misille::Init(float px, float py, float sx, float sy, wstring _name)
+{
+	CObject::Init(px, py, sx, sy, _name);
+}
+
 void Misille::Update()
 {
 	Vector2 vPos = Position();
@@ -19,6 +24,18 @@ void Misille::Render(HDC hdc)
 		int(m_position.y - m_scale.y / 2),
 		int(m_position.x + m_scale.x / 2),
 		int(m_position.y + m_scale.y / 2));
+}
+
+void Misille::OnCollision(Collider* other)
+{
+}
+
+void Misille::OnCollisionEnter(Collider* other)
+{
+}
+
+void Misille::OnCollisionExit(Collider* other)
+{
 }
 
 void Misille::SetDir(float fTheta)

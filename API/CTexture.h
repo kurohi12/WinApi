@@ -19,6 +19,6 @@ public:
     HDC GetUseDC();
 
     CTexture();
-    ~CTexture();
+    virtual ~CTexture();
 };
 

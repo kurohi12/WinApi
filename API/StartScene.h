@@ -8,6 +8,7 @@ public:
 	~StartScene();
 
 	virtual void Start();
+	virtual void Update();
 	virtual void Exit();
 };
 

@@ -6,8 +6,4 @@ E:\Github\WinApi\API\Global.h(24,28): warning C4244: '초기화 중': 'int'에�
 E:\Github\WinApi\API\Global.h(24,35): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'Player.cpp'을(를) 컴파일하는 중)
   
-E:\Github\WinApi\API\Player.cpp(22,25): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\Github\WinApi\API\Player.cpp(25,25): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\Github\WinApi\API\Player.cpp(28,25): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\Github\WinApi\API\Player.cpp(31,25): warning C4244: '-=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   API.vcxproj -> E:\Github\WinApi\API\Output\bin_debug\API.exe

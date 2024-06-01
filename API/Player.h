@@ -5,13 +5,20 @@ class Player :
     public CObject
 {
 public:
-    virtual void Init(float px, float py, float sx, float sy);
+    virtual void Init(float px, float py, float sx, float sy, wstring _name);
     virtual void Update();
     virtual void Render(HDC hdc);
     virtual void Release();
+    virtual CObject* Clone() {
+        return new Player(*this);
+    }
 
+    virtual void OnCollision(Collider* other);
+    virtual void OnCollisionEnter(Collider* other);
+    virtual void OnCollisionExit(Collider* other);
+    
 private:
-    CTexture* headTex = NULL;
+    //CTexture* headTex = NULL;
     void CreateMissile();
 };
 

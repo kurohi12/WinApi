@@ -41,6 +41,15 @@
     <Filter Include="Component">
       <UniqueIdentifier>{5aa5844c-bffd-43fa-be47-b98450487121}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{a56404f0-44d4-4f24-911b-546a95d6a39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainScene">
+      <UniqueIdentifier>{098f1f53-edc4-4dba-bc9f-adb335c7e2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default\Resource\Animation">
+      <UniqueIdentifier>{26b8e80a-6d5a-4d1f-81bd-fbb007d9e29d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="API.h">
@@ -106,6 +115,30 @@
     <ClInclude Include="SelectGDI.h">
       <Filter>Engine</Filter>
     </ClInclude>
+    <ClInclude Include="Jewel.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GFunc.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Default\Resource\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp">
@@ -155,6 +188,30 @@
     </ClCompile>
     <ClCompile Include="SelectGDI.cpp">
       <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Jewel.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GFunc.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Default\Resource\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
