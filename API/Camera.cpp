@@ -17,22 +17,34 @@ void Camera::Update()
 		}
 	}
 
-	if (KEY_CHECK(KEYLIST::UP, KEYSTATE::HOLD)) {
-		m_vLookAt.y -= 200.f * fDeltaTime;
-	}
-	if (KEY_CHECK(KEYLIST::RIGHT, KEYSTATE::HOLD)) {
-		m_vLookAt.x += 200.f * fDeltaTime;
-	}
-
 	CalDiff();
 }
 
 void Camera::CalDiff()
 {
+	m_fAccTime += fDeltaTime;
+
+	if (m_fAccTime > m_fTime) {
+		m_vCurLookAt = m_vLookAt;
+	}
+	else {
+		//이전 위치와 현재 위치의 차이값을 보정
+		if (!(m_vCurLookAt.x == m_vLookAt.x && m_vCurLookAt.y == m_vLookAt.y)) {
+			Vector2 vLookDir = m_vLookAt - m_vPreLookAt;
+			m_vCurLookAt = m_vPreLookAt + vLookDir.Normalize() * m_fSpeed * fDeltaTime;
+		}
+		
+	}
+	
+	
+
+
 	Vector2 vResolutuin;
 	vResolutuin = CCore::getInstance()->GetPT();
 	Vector2 vCenter = vResolutuin/2;
 
-	m_vDiff = m_vLookAt - vCenter;
+	m_vDiff = m_vCurLookAt - vCenter;
+
+	m_vPreLookAt = m_vCurLookAt;
 
 }

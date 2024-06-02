@@ -41,6 +41,10 @@ public:
 		return Vector2(x * (float)i, y * (float)i);
 	}
 
+	Vector2 operator * (float i) {
+		return Vector2(x * i, y * i);
+	}
+
 	Vector2 operator / (float i) {
 		assert(!(0.f == i));
 		return Vector2(x / i, y / i);

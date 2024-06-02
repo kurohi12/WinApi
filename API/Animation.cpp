@@ -25,7 +25,7 @@ void Animation::Create(CTexture* tex, Vector2 vLT, Vector2 vSlideSize, Vector2 s
 	m_tex = tex;
 
 	AnimFrm frm = {};
-	for (UINT i = 0; i < frameCount; ++i) {
+	for (int i = 0; i < frameCount; ++i) {
 		frm.fDuration = duration;
 		frm.vSlice = vSlideSize;
 		frm.vLT = vLT + step * i;

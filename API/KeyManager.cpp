@@ -36,7 +36,11 @@ int arrVK[(int)KEYLIST::LAST] = {
 
 	VK_RETURN,
 	VK_SPACE,
-	VK_ESCAPE
+	VK_ESCAPE,
+	VK_LBUTTON,
+	VK_RBUTTON,
+
+	
 	/*LEFT,
 	RIGHT,
 	UP,
@@ -96,6 +100,14 @@ void KeyManager::Update()
 				m_vecKey[i].keyState == KEYSTATE::NONE;
 		}
 	}
+
+	POINT ptPos = {};
+	GetCursorPos(&ptPos);
+
+
+	ScreenToClient(CCore::getInstance()->GetHwnd(), &ptPos);
+
+	m_mousePos = Vector2((float)ptPos.x,(float)ptPos.y );
 	
 }
 

@@ -26,7 +26,7 @@ void StartScene::Start()
 	pObj->Init(0, 0, 50, 50,L"Player");
 	AddObject(pObj, GROUP_TYPE::PLAYER);
 
-	Camera::getInstance()->SetTarget(pObj);
+	//Camera::getInstance()->SetTarget(pObj);
 
 	CObject* pObj2 = new Jewel();
 
@@ -37,7 +37,7 @@ void StartScene::Start()
 	
 	Vector2 vResolutuin;
 	vResolutuin = CCore::getInstance()->GetPT();
-	Camera::getInstance()->SetLookAt(vResolutuin/2);
+	Camera::getInstance()->SetLookAt(Vector2(0,0));
 	
 }
 
@@ -47,6 +47,13 @@ void StartScene::Update()
 
 	if (KEY_CHECK(KEYLIST::ENTER, KEYSTATE::KEYDOWN)) {
 		ChangeScene(SCENE_TYPE::MAIN);
+	}
+
+	//마우스 좌클릭시 해당 좌표로 화면 이동
+	if (KEY_CHECK(KEYLIST::LBTN, KEYSTATE::KEYDOWN)) {
+		Vector2 vec = KeyManager::getInstance()->GetMousePos();
+		Vector2 lookAt = Camera::getInstance()->GetRealPos(vec);
+		Camera::getInstance()->SetLookAt(lookAt);
 	}
 
 }

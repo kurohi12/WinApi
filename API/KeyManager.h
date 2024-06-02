@@ -23,6 +23,9 @@ enum KEYLIST {
 	SPACE,
 	ESC,
 
+	LBTN,
+	RBTN,
+
 	LAST
 };
 
@@ -35,12 +38,13 @@ class KeyManager : public Singleton<KeyManager>
 {
 private :
 	vector<KeyInfo> m_vecKey;
+	Vector2 m_mousePos;
 
 
 public:
 	void Init();
 	void Update();
 	KEYSTATE GetKeyState(KEYLIST key);
-	
+	Vector2 GetMousePos() { return m_mousePos; }
 };
 
