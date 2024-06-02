@@ -44,6 +44,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -51,6 +52,7 @@
     <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -151,6 +153,7 @@
     <ClInclude Include="CScene.h" />
     <ClInclude Include="CSceneManager.h" />
     <ClInclude Include="CTexture.h" />
+    <ClInclude Include="CTile.h" />
     <ClInclude Include="CTime.h" />
     <ClInclude Include="EventManager.h" />
     <ClInclude Include="framework.h" />
@@ -168,6 +171,7 @@
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="StartScene.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="ToolScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
@@ -182,6 +186,7 @@
     <ClCompile Include="CScene.cpp" />
     <ClCompile Include="CSceneManager.cpp" />
     <ClCompile Include="CTexture.cpp" />
+    <ClCompile Include="CTile.cpp" />
     <ClCompile Include="CTime.cpp" />
     <ClCompile Include="EventManager.cpp" />
     <ClCompile Include="GFunc.cpp" />
@@ -194,6 +199,7 @@
     <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="SelectGDI.cpp" />
     <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="ToolScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="API.rc" />

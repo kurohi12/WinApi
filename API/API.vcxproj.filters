@@ -50,6 +50,9 @@
     <Filter Include="Default\Resource\Animation">
       <UniqueIdentifier>{26b8e80a-6d5a-4d1f-81bd-fbb007d9e29d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Object\Tile">
+      <UniqueIdentifier>{9a161552-4d59-4c33-ae9d-bad53ef1ee2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="API.h">
@@ -139,6 +142,12 @@
     <ClInclude Include="Camera.h">
       <Filter>Manager</Filter>
     </ClInclude>
+    <ClInclude Include="ToolScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API.cpp">
@@ -158,9 +167,6 @@
     </ClCompile>
     <ClCompile Include="CScene.cpp">
       <Filter>Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="CSceneManager.cpp">
-      <Filter>Manager</Filter>
     </ClCompile>
     <ClCompile Include="StartScene.cpp">
       <Filter>Scene\StartScene</Filter>
@@ -212,6 +218,15 @@
     </ClCompile>
     <ClCompile Include="Camera.cpp">
       <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Object\Tile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

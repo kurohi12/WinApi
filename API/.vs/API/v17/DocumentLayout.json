@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "E:\\Github\\WinApi\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\KeyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:KeyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\PathManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:PathManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\ToolScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:ToolScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\ToolScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:ToolScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\StartScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:StartScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Global.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Animation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -33,26 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\KeyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:KeyManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\KeyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:KeyManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -127,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\PathManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:PathManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\Misille.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:Misille.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -141,14 +169,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\MainScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:MainScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:MainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CSceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -177,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:EventManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\CTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|solutionrelative:CTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574952E4-E955-4B22-B64A-1240C1E85D83}|API.vcxproj|E:\\Github\\WinApi\\API\\SelectGDI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -222,31 +238,200 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CTile.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTile.cpp",
+              "RelativeDocumentMoniker": "CTile.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CTile.cpp",
+              "RelativeToolTip": "CTile.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T10:36:09.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CTile.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTile.h",
+              "RelativeDocumentMoniker": "CTile.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CTile.h",
+              "RelativeToolTip": "CTile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T10:35:41.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Player.h",
+              "RelativeDocumentMoniker": "Player.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Player.h",
+              "RelativeToolTip": "Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-10T02:45:38.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CObject.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CObject.h",
+              "RelativeDocumentMoniker": "CObject.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CObject.h",
+              "RelativeToolTip": "CObject.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T03:58:36.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PathManager.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\PathManager.h",
+              "RelativeDocumentMoniker": "PathManager.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\PathManager.h",
+              "RelativeToolTip": "PathManager.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-21T07:44:10.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KeyManager.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\KeyManager.cpp",
+              "RelativeDocumentMoniker": "KeyManager.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\KeyManager.cpp",
+              "RelativeToolTip": "KeyManager.cpp",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAG0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-07T23:58:10.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CObject.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CObject.cpp",
+              "RelativeDocumentMoniker": "CObject.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CObject.cpp",
+              "RelativeToolTip": "CObject.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-01T03:58:37.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Player.cpp",
+              "RelativeDocumentMoniker": "Player.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwDIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-10T02:46:03.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToolScene.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\ToolScene.cpp",
+              "RelativeDocumentMoniker": "ToolScene.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\ToolScene.cpp",
+              "RelativeToolTip": "ToolScene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T10:32:27.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CSceneManager.cpp",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CSceneManager.cpp",
+              "RelativeDocumentMoniker": "CSceneManager.cpp",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CSceneManager.cpp",
+              "RelativeToolTip": "CSceneManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T02:24:08.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ToolScene.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\ToolScene.h",
+              "RelativeDocumentMoniker": "ToolScene.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\ToolScene.h",
+              "RelativeToolTip": "ToolScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T10:31:25.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CTime.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTime.h",
+              "RelativeDocumentMoniker": "CTime.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\CTime.h",
+              "RelativeToolTip": "CTime.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T23:37:17.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Global.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Global.h",
+              "RelativeDocumentMoniker": "Global.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Global.h",
+              "RelativeToolTip": "Global.h",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T23:07:19.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Camera.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Camera.cpp",
               "RelativeDocumentMoniker": "Camera.cpp",
               "ToolTip": "E:\\Github\\WinApi\\API\\Camera.cpp",
               "RelativeToolTip": "Camera.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAARAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-31T02:08:38.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Animation.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Animation.h",
-              "RelativeDocumentMoniker": "Animation.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Animation.h",
-              "RelativeToolTip": "Animation.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAXAAAA",
+              "DocumentIndex": 15,
+              "Title": "Camera.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Camera.h",
+              "RelativeDocumentMoniker": "Camera.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Camera.h",
+              "RelativeToolTip": "Camera.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-29T03:01:47.369Z"
+              "WhenOpened": "2024-05-31T02:05:46.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "Animation.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Animation.cpp",
               "RelativeDocumentMoniker": "Animation.cpp",
@@ -258,20 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Camera.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Camera.h",
-              "RelativeDocumentMoniker": "Camera.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Camera.h",
-              "RelativeToolTip": "Camera.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-31T02:05:46.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "StartScene.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\StartScene.cpp",
               "RelativeDocumentMoniker": "StartScene.cpp",
@@ -279,36 +451,36 @@
               "RelativeToolTip": "StartScene.cpp",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-08T02:33:22.403Z",
+              "WhenOpened": "2024-05-08T02:33:22.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainScene.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\MainScene.h",
+              "RelativeDocumentMoniker": "MainScene.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\MainScene.h",
+              "RelativeToolTip": "MainScene.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-29T00:58:19.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KeyManager.cpp",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\KeyManager.cpp",
-              "RelativeDocumentMoniker": "KeyManager.cpp",
-              "ToolTip": "E:\\Github\\WinApi\\API\\KeyManager.cpp",
-              "RelativeToolTip": "KeyManager.cpp",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAG0AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-07T23:58:10.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Global.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Global.h",
-              "RelativeDocumentMoniker": "Global.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Global.h",
-              "RelativeToolTip": "Global.h",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAEEAAAAWAAAA",
+              "DocumentIndex": 18,
+              "Title": "Animation.h",
+              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Animation.h",
+              "RelativeDocumentMoniker": "Animation.h",
+              "ToolTip": "E:\\Github\\WinApi\\API\\Animation.h",
+              "RelativeToolTip": "Animation.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T23:07:19.43Z"
+              "WhenOpened": "2024-05-29T03:01:47.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 19,
               "Title": "StartScene.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\StartScene.h",
               "RelativeDocumentMoniker": "StartScene.h",
@@ -320,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "KeyManager.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\KeyManager.h",
               "RelativeDocumentMoniker": "KeyManager.h",
@@ -332,19 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Player.cpp",
-              "RelativeDocumentMoniker": "Player.cpp",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Player.cpp",
-              "RelativeToolTip": "Player.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwDIAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-10T02:46:03.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "GFunc.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\GFunc.h",
               "RelativeDocumentMoniker": "GFunc.h",
@@ -356,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "API.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\API.cpp",
               "RelativeDocumentMoniker": "API.cpp",
@@ -368,19 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CObject.cpp",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CObject.cpp",
-              "RelativeDocumentMoniker": "CObject.cpp",
-              "ToolTip": "E:\\Github\\WinApi\\API\\CObject.cpp",
-              "RelativeToolTip": "CObject.cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-01T03:58:37.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Collider.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Collider.h",
               "RelativeDocumentMoniker": "Collider.h",
@@ -392,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Collider.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Collider.cpp",
               "RelativeDocumentMoniker": "Collider.cpp",
@@ -404,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "CCore.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CCore.cpp",
               "RelativeDocumentMoniker": "CCore.cpp",
@@ -416,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Jewel.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Jewel.cpp",
               "RelativeDocumentMoniker": "Jewel.cpp",
@@ -428,31 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CObject.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CObject.h",
-              "RelativeDocumentMoniker": "CObject.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\CObject.h",
-              "RelativeToolTip": "CObject.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-01T03:58:36.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Player.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\Player.h",
-              "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\Player.h",
-              "RelativeToolTip": "Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-10T02:45:38.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "CCore.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CCore.h",
               "RelativeDocumentMoniker": "CCore.h",
@@ -464,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "Jewel.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Jewel.h",
               "RelativeDocumentMoniker": "Jewel.h",
@@ -476,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "CTexture.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTexture.cpp",
               "RelativeDocumentMoniker": "CTexture.cpp",
@@ -488,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "ColliderManager.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\ColliderManager.cpp",
               "RelativeDocumentMoniker": "ColliderManager.cpp",
@@ -500,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "ResourceManager.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\ResourceManager.h",
               "RelativeDocumentMoniker": "ResourceManager.h",
@@ -512,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "CResource.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CResource.cpp",
               "RelativeDocumentMoniker": "CResource.cpp",
@@ -524,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "CTexture.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTexture.h",
               "RelativeDocumentMoniker": "CTexture.h",
@@ -536,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "CResource.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CResource.h",
               "RelativeDocumentMoniker": "CResource.h",
@@ -548,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "ResourceManager.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\ResourceManager.cpp",
               "RelativeDocumentMoniker": "ResourceManager.cpp",
@@ -560,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Animator.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Animator.h",
               "RelativeDocumentMoniker": "Animator.h",
@@ -572,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "ColliderManager.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\ColliderManager.h",
               "RelativeDocumentMoniker": "ColliderManager.h",
@@ -584,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Animator.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Animator.cpp",
               "RelativeDocumentMoniker": "Animator.cpp",
@@ -596,19 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "PathManager.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\PathManager.h",
-              "RelativeDocumentMoniker": "PathManager.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\PathManager.h",
-              "RelativeToolTip": "PathManager.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-21T07:44:10.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "CSceneManager.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CSceneManager.h",
               "RelativeDocumentMoniker": "CSceneManager.h",
@@ -620,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "Misille.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Misille.h",
               "RelativeDocumentMoniker": "Misille.h",
@@ -632,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "EventManager.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\EventManager.cpp",
               "RelativeDocumentMoniker": "EventManager.cpp",
@@ -644,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "GFunc.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\GFunc.cpp",
               "RelativeDocumentMoniker": "GFunc.cpp",
@@ -656,19 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CSceneManager.cpp",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CSceneManager.cpp",
-              "RelativeDocumentMoniker": "CSceneManager.cpp",
-              "ToolTip": "E:\\Github\\WinApi\\API\\CSceneManager.cpp",
-              "RelativeToolTip": "CSceneManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-08T02:24:08.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "Misille.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Misille.cpp",
               "RelativeDocumentMoniker": "Misille.cpp",
@@ -680,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "CScene.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CScene.cpp",
               "RelativeDocumentMoniker": "CScene.cpp",
@@ -692,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "MainScene.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\MainScene.cpp",
               "RelativeDocumentMoniker": "MainScene.cpp",
@@ -704,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "CScene.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CScene.h",
               "RelativeDocumentMoniker": "CScene.h",
@@ -716,19 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MainScene.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\MainScene.h",
-              "RelativeDocumentMoniker": "MainScene.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\MainScene.h",
-              "RelativeToolTip": "MainScene.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-29T00:58:19.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "CTime.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTime.cpp",
               "RelativeDocumentMoniker": "CTime.cpp",
@@ -740,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "EventManager.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\EventManager.h",
               "RelativeDocumentMoniker": "EventManager.h",
@@ -752,19 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CTime.h",
-              "DocumentMoniker": "E:\\Github\\WinApi\\API\\CTime.h",
-              "RelativeDocumentMoniker": "CTime.h",
-              "ToolTip": "E:\\Github\\WinApi\\API\\CTime.h",
-              "RelativeToolTip": "CTime.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T23:37:17.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "SelectGDI.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\SelectGDI.h",
               "RelativeDocumentMoniker": "SelectGDI.h",
@@ -776,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "SelectGDI.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\SelectGDI.cpp",
               "RelativeDocumentMoniker": "SelectGDI.cpp",
@@ -788,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "PathManager.cpp",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\PathManager.cpp",
               "RelativeDocumentMoniker": "PathManager.cpp",
@@ -800,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "API.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\API.h",
               "RelativeDocumentMoniker": "API.h",
@@ -812,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "xmemory",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
@@ -822,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "Singleton.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\Singleton.h",
               "RelativeDocumentMoniker": "Singleton.h",
@@ -834,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "framework.h",
               "DocumentMoniker": "E:\\Github\\WinApi\\API\\framework.h",
               "RelativeDocumentMoniker": "framework.h",

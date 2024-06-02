@@ -94,7 +94,7 @@ enum class GROUP_TYPE {
 enum class SCENE_TYPE {
 	MAIN,
 	START,
-
+	TOOL,
 	STAGE01,
 
 	END
